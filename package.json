@@ -1,0 +1,17 @@
+{
+  "name": "pnp-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "nyc node test.js"
+  },
+  "installConfig": {
+    "pnp": true
+  },
+  "dependencies": {
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "nyc": "git://github.com/coreyfarrell/nyc#yarnpnp"
+  }
+}
